@@ -269,6 +269,19 @@ button {
     justify-content: center;
     align-items: center;
 }
+.company__item:nth-child(3) .company__box {
+    background: #fee101;
+}
+.company__item:nth-child(4) .company__box {
+    background: #ff0000;
+}
+.company__item:nth-child(5) .company__box {
+    background: #14a800;
+}
+.company__item:nth-child(7) .company__box {
+    background: #7f54b3;
+}
+
 .company__icon {
     border-radius: 50%;
 }

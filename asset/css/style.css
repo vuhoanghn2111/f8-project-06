@@ -74,9 +74,6 @@ button {
 /* Header */
 .header {
     padding-top: 20px;
-    position: sticky;
-    top: -10px;
-    z-index: 2;
 }
 .header__container {
     width: 1330px;
@@ -226,4 +223,58 @@ button {
 }
 .hero__social-item + .hero__social-item .hero__social--icon {
     margin-top: 2px;
+}
+/* Company */
+.company {
+    margin-top: 111px;
+}
+.company__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.company__heading {
+    width: 253px;
+    font-size: 42px;
+    line-height: 50px; /* 119.048% */
+    letter-spacing: -1.68px;
+    position: relative;
+    margin-left: 99px;
+}
+.company__heading::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 86px;
+    height: 2px;
+    background: var(--primary-color);
+    left: -99px;
+    top: 22px;
+}
+.company__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 36px 34px;
+}
+.company__item {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.company__box {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company__icon {
+    border-radius: 50%;
+}
+.company__name {
+    color: var(--secondary-color);
+    font-size: 1.6rem;
+    font-weight: 550;
+    letter-spacing: -1px;
 }

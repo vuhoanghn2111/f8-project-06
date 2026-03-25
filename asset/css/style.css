@@ -163,7 +163,7 @@ button {
 .hero__img-deco2 {
     position: absolute;
     bottom: 0;
-    left: calc(100% + 439px);
+    left: calc(100% + 364px);
 }
 .hero__heading {
     width: 500px;

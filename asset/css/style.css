@@ -288,3 +288,40 @@ button {
     font-weight: 550;
     letter-spacing: -1px;
 }
+/* Service */
+.service {
+    margin-top: 133px;
+}
+.service__heading {
+    text-align: center;
+}
+.service__desc {
+    margin-top: 20px;
+    width: 534px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.service__list {
+    margin-top: 140px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+.service__card {
+    width: 370px;
+    height: 306px;
+    background: var(--primary-background);
+    border-radius: 10px;
+    padding: 33px 43px;
+}
+.service__img {
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

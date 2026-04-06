@@ -352,3 +352,46 @@ button {
     width: 370px;
     color: #fff;
 }
+.work__list {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.work__card {
+    background: var(--primary-background);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 23px 23px 34px;
+    position: relative;
+}
+.work__card::after {
+    content: url(../img/work/w\ deco.svg);
+    position: absolute;
+    right: 0;
+    top: 1px;
+}
+.work__desc {
+    margin-top: 10px;
+}
+.work__case {
+    margin-top: 20px;
+    color: var(--secondary-color);
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 166.667% */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+}
+.work__btn {
+    background: #fff;
+    color: var(--secondary-color);
+    margin-top: 80px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}

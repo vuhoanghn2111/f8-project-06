@@ -331,3 +331,24 @@ button {
     margin-top: 22px;
     margin-bottom: 18px;
 }
+/* Work */
+.work {
+    margin-top: 140px;
+    background: #5d3bee;
+}
+.work__inner {
+    padding: 86px 0;
+}
+.work__title {
+    display: flex;
+    align-items: center;
+    gap: 160px;
+}
+.work__heading {
+    color: #fff;
+    width: 415px;
+}
+.work__desc {
+    width: 370px;
+    color: #fff;
+}

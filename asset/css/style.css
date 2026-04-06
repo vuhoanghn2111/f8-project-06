@@ -324,4 +324,10 @@ button {
     align-items: center;
     justify-content: center;
 }
-
+.service__icon {
+    transform: translateY(7px);
+}
+.service__name {
+    margin-top: 22px;
+    margin-bottom: 18px;
+}

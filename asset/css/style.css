@@ -429,8 +429,8 @@ button {
     width: 946px;
     height: 148px;
     margin: 70px auto;
-    border-top: 1px solid var(--secondary-color);
-    border-bottom: 1px solid var(--secondary-color);
+    border-top: 1px solid rgb(8, 4, 21, 0.2);
+    border-bottom: 1px solid rgb(8, 4, 21, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;

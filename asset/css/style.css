@@ -482,6 +482,19 @@ button {
     padding-top: 150px;
     padding-bottom: 74px;
     background: var(--primary-background);
+    position: relative;
+}
+.testimonial::before {
+    content: url(../img/testimonial/deco.svg);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.testimonial::after {
+    content: url(../img/testimonial/deco2.svg);
+    position: absolute;
+    right: 0;
+    bottom: 0;  
 }
 .test__inner {
     display: flex;

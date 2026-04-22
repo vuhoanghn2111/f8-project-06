@@ -599,7 +599,103 @@
                     </section>
                 </div>
             </section>
+            <!-- FAQ -->
+            <section class="faq">
+                <div class="container">
+                    <h2 class="section__heading-h2 faq__heading">
+                        A few questions<br />
+                        clients normally ask me
+                    </h2>
+
+                    <div class="faq-inner">
+                        <div class="faq-item ">
+                            <div class="faq-question">
+                                <span class="section__heading-h3"
+                                    >What is your hourly rate?</span
+                                >
+                                <button class="toggle-btn">+</button>
+                            </div>
+                            <div class="faq-answer section__desc">
+                                Lorem ipsum dolor sit amet...
+                            </div>
+                        </div>
+
+                        <div class="faq-item ">
+                            <div class="faq-question">
+                                <span class="section__heading-h3"
+                                    >What is your hourly rate?</span
+                                >
+                                <button class="toggle-btn">+</button>
+                            </div>
+                            <div class="faq-answer section__desc">
+                                Lorem ipsum dolor sit amet...
+                            </div>
+                        </div>
+
+                        <div class="faq-item ">
+                            <div class="faq-question">
+                                <span class="section__heading-h3"
+                                    >What is your hourly rate?</span
+                                >
+                                <button class="toggle-btn">+</button>
+                            </div>
+                            <div class="faq-answer section__desc">
+                                Lorem ipsum dolor sit amet...
+                            </div>
+                        </div>
+
+                        <div class="faq-item ">
+                            <div class="faq-question">
+                                <span class="section__heading-h3"
+                                    >What is your hourly rate?</span
+                                >
+                                <button class="toggle-btn">+</button>
+                            </div>
+                            <div class="faq-answer section__desc">
+                                Lorem ipsum dolor sit amet...
+                            </div>
+                        </div>
+
+                        <div class="faq-item ">
+                            <div class="faq-question">
+                                <span class="section__heading-h3"
+                                    >What is your hourly rate?</span
+                                >
+                                <button class="toggle-btn">+</button>
+                            </div>
+                            <div class="faq-answer section__desc">
+                                Lorem ipsum dolor sit amet...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
         <footer></footer>
+        <script>
+            document.querySelectorAll(".toggle-btn").forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    const item = btn.closest(".faq-item");
+                    const answer = item.querySelector(".faq-answer");
+
+                    // Toggle hiển thị nội dung
+                    if (answer.style.display === "block") {
+                        answer.style.display = "none";
+                    } else {
+                        answer.style.display = "block";
+                    }
+
+                    // Toggle class active để đổi màu border + chữ
+                    item.classList.toggle("active");
+
+                    // Đổi dấu + thành -
+                    if (btn.textContent === "+") {
+                        btn.textContent = "-";
+                    } else {
+                        btn.textContent = "+";
+                    }
+                });
+            });
+        </script>
     </body>
 </html>

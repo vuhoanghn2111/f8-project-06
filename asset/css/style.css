@@ -494,7 +494,7 @@ button {
     content: url(../img/testimonial/deco2.svg);
     position: absolute;
     right: 0;
-    bottom: 0;  
+    bottom: 0;
 }
 .test__inner {
     display: flex;
@@ -582,4 +582,48 @@ button {
     height: 12px;
     border-radius: inherit;
     background: #5d3bee;
+}
+/* FAQ */
+.faq {
+    margin-top: 95px;
+}
+.faq__heading {
+    width: 575px;
+}
+.faq-inner {
+    margin-top: 80px;
+}
+.faq-inner .faq-item {
+    width: 1109px;
+    border-bottom: 2px solid #08182f;
+    user-select: none;
+    margin-bottom: 60px;
+}
+.faq-item.active .faq-question span{
+    color: #5d3bee;
+}
+.faq-item.active {
+    border-bottom: 2px solid #5d3bee;
+}
+
+.faq-answer {
+    display: none;
+}
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 33px;
+}
+.faq-answer {
+    margin-top: 23px;
+    margin-bottom: 21px;
+    width: 487px;
+    text-align: left;
+}
+.toggle-btn {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(93, 59, 238, 0.2);
 }

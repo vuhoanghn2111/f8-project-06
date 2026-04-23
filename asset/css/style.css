@@ -663,3 +663,51 @@ button {
     max-width: 100%;
     max-height: 100%;
 }
+/* CTA */
+.cta {
+    margin-top: 140px;
+    background: var(--primary-background);
+}
+.cta-inner {
+    text-align: center;
+    padding: 68px 0;
+    position: relative;
+}
+.cta-inner::before {
+    content: url(../img/cta/cta-deco-left.svg);
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.cta-inner::after {
+    content: url(../img/cta/cta-deco-right.svg);
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.cta-deco {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.cta__heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    z-index: 1;
+    position: relative;
+}
+.cta__desc {
+    width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    z-index: 1;
+    position: relative;
+}
+.cta__btn {
+    position: relative;
+    z-index: 1;
+}

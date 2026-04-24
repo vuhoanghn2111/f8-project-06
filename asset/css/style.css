@@ -220,6 +220,11 @@ button {
     height: 40px;
     border-radius: 50%;
     border: 1px solid rgba(8, 4, 21, 0.1);
+    z-index: 1;
+}
+.hero__social-item:hover {
+    background: #eeebfd;
+    cursor: pointer;
 }
 .hero__social-item + .hero__social-item .hero__social--icon {
     margin-top: 2px;
@@ -710,4 +715,37 @@ button {
 .cta__btn {
     position: relative;
     z-index: 1;
+}
+/* Footer */
+footer {
+    margin-top: 50px;
+}
+.footer-top {
+    width: 1350px;
+    margin: 0 auto;
+    padding-bottom: 32px;
+    border-bottom: 1px solid rgb(12, 7, 32, 0.2);
+}
+.footer-bottom {
+    margin-top: 18px;
+    padding-left: 89px;
+    padding-right: 107px;
+    opacity: 0.6;
+    display: flex;
+}
+.footer-privacy {
+    margin-left: 500px;
+    margin-right: 36px;
+    position: relative;
+}
+.footer-privacy::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 14px;
+    background: rgb(82, 87, 113, 0.6);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -23px;
 }

@@ -728,6 +728,7 @@ footer {
 }
 .footer-bottom {
     margin-top: 18px;
+    padding-bottom: 18px;
     padding-left: 89px;
     padding-right: 107px;
     opacity: 0.6;
